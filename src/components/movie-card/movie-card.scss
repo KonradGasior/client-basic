@@ -1,0 +1,22 @@
+$accent: #166590;
+$main: white;
+$navi-color: black;
+
+.card {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Lato', 'Raleway', sans-serif;
+
+    .description {
+        text-align: left;
+    }
+
+    .title{
+        background-color: #166590;
+        color: $main;
+        padding-left: 5px;
+        text-align: center;
+    }
+}

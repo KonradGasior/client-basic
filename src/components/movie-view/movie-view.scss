@@ -1,0 +1,21 @@
+$accent: #166590;
+$main: white;
+$navi-color: black; 
+
+.movie-view {
+    border: 2px solid $accent;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Lato', 'Raleway', sans-serif;
+
+    .label {
+        background-color: #166590;
+        color: $main;
+        width: 100px;
+    }
+
+    .button {
+        float: right;
+        margin: 20px;
+    }
+}
